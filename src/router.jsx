@@ -1,9 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 
+import Home from "./pages/App";
 import Login from "./pages/login";
 import Register from "./pages/register";
-
-// import Test from "./pages/login";
+import ForgotPassword from "./pages/forgot-password";
+import Products from "./pages/products";
+import Profile from "./pages/profile";
 
 const router = createBrowserRouter([
   {
@@ -12,23 +14,8 @@ const router = createBrowserRouter([
     // errorElement: "",
   },
   {
-    path: "/checkout",
-    element: <Checkout />,
-    // errorElement: "",
-  },
-  {
-    path: "/history",
-    element: <History />,
-    // errorElement: "",
-  },
-  {
-    path: "/product",
-    element: <Product />,
-    // errorElement: "",
-  },
-  {
-    path: "/profile",
-    element: <Profile />,
+    path: "/products",
+    element: <Products />,
     // errorElement: "",
   },
   {
@@ -42,8 +29,23 @@ const router = createBrowserRouter([
     // errorElement: "",
   },
   {
-    path: "/resetpassword",
-    element: <ResetPwd />,
+    path: "/forgot-password",
+    element: <ForgotPassword />,
+    // errorElement: "",
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
+    // errorElement: "",
+  },
+  {
+    path: "/history",
+    element: <History />,
+    // errorElement: "",
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
     // errorElement: "",
   },
   {

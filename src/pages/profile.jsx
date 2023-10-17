@@ -10,15 +10,15 @@ function profile() {
         <p className="pt-[38px] pb-[31px] md:pt-[58px] md:pb-[40px] desk:pt-[78px] desk:pb-[58px] font-semibold text-2xl lg:text-3xl desk:text-5xl">Profile</p>
         <div className="flex flex-col gap-[19px] md:flex-row">
           <div className="w-full md:w-[428px] h-fit border-2 border-solid border-order py-3 flex flex-col items-center gap-y-4 rounded-lg">
-            {/* <div class="name-photo"> */}
-            <p className="text-lg font-bold lg:text-2xl">Gilang Rizaltin</p>
-            <p className="text-sm text-footer">gilangzaltin@gmail.com</p>
-            <div class="image lg:w-[113px] lg:h-[113px]">
+            {/* <div className="name-photo"> */}
+            <p className="text-lg font-bold lg:text-2xl">Ghaluh Wizard</p>
+            <p className="text-sm text-footer">ghaluhwizz@gmail.com</p>
+            <div className="image lg:w-[113px] lg:h-[113px]">
               <img height={"80px"} width={"80px"} src="/svg/Ellipse 185 (1).svg" className="rounded-full w-full" alt="photo-profile" />
             </div>
             <button className="w-[226px] px-[18px] py-3 bg-primary font-semibold flex justify-center items-center rounded-lg">Upload New Photo</button>
             <p className="text-base text-footer">
-              Since <strong>July 2023</strong>
+              Since <strong>20 January 2020</strong>
             </p>
             {/* </div> */}
           </div>

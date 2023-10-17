@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       padding: {
@@ -25,6 +25,13 @@ export default {
         extrabold: "800",
         "extra-bold": "800",
         black: "900",
+      },
+      screens: {
+        desk: "1440px",
+        mobile_l: "425px",
+        mobile: "465px",
+        mobile_m: "375px",
+        detailProduct: "872px",
       },
     },
   },
