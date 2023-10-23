@@ -34,33 +34,28 @@ const router = createBrowserRouter([
     // errorElement: "",
   },
   {
-    path: "/checkout",
-    element: <Checkout />,
-    // errorElement: "",
-  },
-  {
-    path: "/history",
-    element: <History />,
-    // errorElement: "",
-  },
-  {
     path: "/profile",
     element: <Profile />,
     // errorElement: "",
   },
-  {
-    path: "/detailorder",
-    element: <DetailOrder />,
-    // errorElement: "",
-  },
-  {
-    path: "/detailproduct",
-    element: <DetailProduct />,
-    // errorElement: "",
-  },
   // {
-  //   path: "/test",
-  //   element: <Test />,
+  //   path: "/checkout",
+  //   element: <Checkout />,
+  //   // errorElement: "",
+  // },
+  // {
+  //   path: "/history",
+  //   element: <History />,
+  //   // errorElement: "",
+  // },
+  // {
+  //   path: "/detailorder",
+  //   element: <DetailOrder />,
+  //   // errorElement: "",
+  // },
+  // {
+  //   path: "/detailproduct",
+  //   element: <DetailProduct />,
   //   // errorElement: "",
   // },
 ]);

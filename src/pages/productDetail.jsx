@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import { productWithRating } from "../components/productCard";
 
 function detailProduct() {
   const [productQty, setProductQty] = useState(1);

@@ -57,12 +57,12 @@ function Home() {
             </div>
           </div>
 
-          <div className="md:w-1/2 md:bg-[url('assets/img/Rectangle287.jpg')] md:bg-cover md:bg-center"></div>
+          <div className="md:w-1/2 md:bg-[url('img/hero-1-img.webp')] md:bg-cover md:bg-center"></div>
         </section>
 
         <section className="relative lg:flex flex-row-reverse lg:h-1/2">
           <div className="h-1/4 w-full lg:flex-2 lg:w-1/2">
-            <img src="/assets/img/Rectangle-291.jpg" alt="" className="h-1/4 w-full lg:h-1/2" />
+            <img src="img/barista-picture.webp" alt="" className="h-1/4 w-full lg:h-1/2" />
           </div>
           <div className="bg-white text-black p-5 flex flex-col gap-[25px] sm:relative md:pl-10 lg:flex-1 lg:justify-center">
             <p className="text-4xl font-bold">
@@ -70,19 +70,19 @@ function Home() {
             </p>
             <p className="text-sm">You can explore the menu that we provide with fun and have their own taste and make your day better.</p>
             <div className="text-sm flex items-center gap-2">
-              <img src="/assets/img/green-check.png" alt="check" />
+              <img src="img/green-checklist.svg" alt="check" />
               <p>High quality beans</p>
             </div>
             <div className="text-sm flex items-center gap-2">
-              <img src="/assets/img/green-check.png" alt="check" />
+              <img src="img/green-checklist.svg" alt="check" />
               <p>Healthy meals, you can request the ingredients</p>
             </div>
             <div className="text-sm flex items-center gap-2">
-              <img src="/assets/img/green-check.png" alt="check" />
+              <img src="img/green-checklist.svg" alt="check" />
               <p>Chat with our staff to get better experience for ordering</p>
             </div>
             <div className="text-sm flex items-center gap-2">
-              <img src="/assets/img/green-check.png" alt="check" />
+              <img src="img/green-checklist.svg" alt="check" />
               <p>Free member card with a minimum purchase of IDR 200.000.</p>
             </div>
           </div>
@@ -101,7 +101,7 @@ function Home() {
           <div className="flex flex-col flex-nowrap items-center md:flex md:flex-row md:gap-6">
             <div className="w-[300px] p-[15px] shadow-md">
               <div className="bg-cover bg-center">
-                <img src="/assets/img/card-product-27.jpg" alt="fav-products-img" />
+                <img src="img/card-product-27.webp" alt="fav-products-img" />
               </div>
               <div className="px-[15px]">
                 <div className="my-[10px]">
@@ -116,14 +116,14 @@ function Home() {
                 <div className="flex gap-1">
                   <button className="w-full items-center border border-transparent bg-primary rounded-lg p-2 text-white">Buy</button>
                   <button className="items-center border border-primary rounded-lg p-2">
-                    <img src="/assets/img/ShoppingCart.svg" alt="add-to-cart" />
+                    <img src="img/ShoppingCart-yellow.svg" alt="add-to-cart" />
                   </button>
                 </div>
               </div>
             </div>
             <div className="w-[300px] p-[15px] shadow-md">
               <div className="bg-cover bg-center">
-                <img src="/assets/img/card-product-27.jpg" alt="fav-products-img" />
+                <img src="img/card-product-27.webp" alt="fav-products-img" />
               </div>
               <div className="px-[15px]">
                 <div className="my-[10px]">
@@ -138,14 +138,14 @@ function Home() {
                 <div className="flex gap-1">
                   <button className="w-full items-center border border-transparent bg-primary rounded-lg p-2 text-white">Buy</button>
                   <button className="items-center border border-primary rounded-lg p-2">
-                    <img src="/assets/img/ShoppingCart.svg" alt="add-to-cart" />
+                    <img src="img/ShoppingCart-yellow.svg" alt="add-to-cart" />
                   </button>
                 </div>
               </div>
             </div>
             <div className="w-[300px] p-[15px] shadow-md">
               <div className="bg-cover bg-center">
-                <img src="/assets/img/card-product-27.jpg" alt="fav-products-img" />
+                <img src="img/card-product-27.webp" alt="fav-products-img" />
               </div>
               <div className="px-[15px]">
                 <div className="my-[10px]">
@@ -160,14 +160,14 @@ function Home() {
                 <div className="flex gap-1">
                   <button className="w-full items-center border border-transparent bg-primary rounded-lg p-2 text-white">Buy</button>
                   <button className="items-center border border-primary rounded-lg p-2">
-                    <img src="/assets/img/ShoppingCart.svg" alt="add-to-cart" />
+                    <img src="img/ShoppingCart-yellow.svg" alt="add-to-cart" />
                   </button>
                 </div>
               </div>
             </div>
             <div className="w-[300px] p-[15px] shadow-md">
               <div className="bg-cover bg-center">
-                <img src="/assets/img/card-product-27.jpg" alt="fav-products-img" />
+                <img src="img/card-product-27.webp" alt="fav-products-img" />
               </div>
               <div className="px-[15px]">
                 <div className="my-[10px]">
@@ -182,7 +182,7 @@ function Home() {
                 <div className="flex gap-1">
                   <button className="w-full items-center border border-transparent bg-primary rounded-lg p-2 text-white">Buy</button>
                   <button className="items-center border border-primary rounded-lg p-2">
-                    <img src="/assets/img/ShoppingCart.svg" alt="add-to-cart" />
+                    <img src="img/ShoppingCart-yellow.svg" alt="add-to-cart" />
                   </button>
                 </div>
               </div>
@@ -201,11 +201,11 @@ function Home() {
               <p>You can explore the menu that we provide with fun and have their own taste and make your day better.</p>
             </div>
           </div>
-          <div className="h-[586px] mt-6 bg-[url('/assets/img/Huge-Global.jpg')] bg-cover bg-full"></div>
+          <div className="h-[586px] mt-6 bg-[url('img/Huge-Global.webp')] bg-cover bg-full"></div>
         </section>
         <section className="flex flex-col justify-center flex-nowrap md:h-[583px] bg-[#141517] md:flex md:flex-row md:items-center md:p-def">
           <div className="w-full md:w-1/2 flex justify-center mt-8">
-            <img className="bg-[url('/assets/img/Rectangle295.webp')] w-[150px] h-[150px] bg-cover bg-center md:w-[578px] md:h-[432px]" />
+            <img className="bg-[url('img/testi-prof-pict.webp')] w-[150px] h-[150px] bg-cover bg-center md:w-[578px] md:h-[432px]" />
           </div>
           <div className="w-full md:w-1/2 md:pl-10 flex flex-col gap-6 items-center md:items-start px-4 mb-8">
             <div>
@@ -216,11 +216,13 @@ function Home() {
               <p className="text-primary">Manager Coffee Shop</p>
             </div>
             <div>
-              <p className="text-white">&quotWow.... I Am very happy to spend my whole day here. the wi-fi is good, and thea coffee and meals tho. I like it here!! Very recommended!!&quot</p>
+              <p className="text-white">Wow.... I Am very happy to spend my whole day here. the wi-fi is good, and thea coffee and meals tho. I like it here!! Very recommended!!&quot</p>
             </div>
             <div className="flex gap-6">
-              <img src="assets/img/Group 1305.png" alt="left-arrow" />
-              <img src="assets/img/Group 1304.png" alt="right-arrow" />
+              <button className="active:bg-primary rounded">
+                <img src="img/arrow-left-light.svg" alt="left-arrow" />
+              </button>
+              <img src="img/arrow-right-light.svg" alt="right-arrow" />
             </div>
           </div>
         </section>

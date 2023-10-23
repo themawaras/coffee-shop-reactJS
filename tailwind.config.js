@@ -8,6 +8,7 @@ export default {
       },
       fontFamily: {
         jakarta: "'Plus Jakarta Sans', sans-serif",
+        sacramento: "Sacramento', cursive",
       },
       colors: {
         translucent: "#0B090921",

@@ -1,16 +1,18 @@
 import React from "react";
 import { useState } from "react";
+import { useUserContext } from "../contexts/context";
 import { useNavigate } from "react-router-dom";
-// import { useUserContext } from "../context/context";
+
 import { login } from "../https/login";
 
 function loginUser() {
   const navigate = useNavigate();
-  };
   const [isPwdShown, setIsPwdShown] = useState(false);
   const showPwdHandler = () => {
     setIsPwdShown((state) => !state);
   };
+  const [isPwdWrong, setIsPwdWrong] = useState(false);
+  const setShowPwdWrongModal = () => {};
   const [msg, setMsg] = useState("");
   const { changeUser } = useUserContext();
   const submitHandler = (e) => {
@@ -30,12 +32,11 @@ function loginUser() {
         setMsg(err.response.data.msg);
       });
   };
-
   return (
     <>
       <div className="flex h-screen">
         <div className="hidden md:block">
-          <img src="/img/Rectangle 289-login.jpg" alt="image" className="h-screen" />
+          <img src="img/Rectangle 289-login.jpg" alt="image" className="h-screen" />
         </div>
         <form onSubmit={submitHandler} className="flex-1 flex justify-center flex-col gap-y-5 px-2 md:px-10 desk:pr-def py-9">
           <div className="flex gap-2 items-center mb-4">
@@ -79,7 +80,7 @@ function loginUser() {
               <img src="/img/bx_bxl-facebook-circle.png" alt="facebook" />
               <p className="hidden mobile:block">Facebook</p>
             </div>
-            <div className="cursor-pointer flex-1 h-10 w-10 border-2 border-solid border-order rounded-lg flex justify-center items-center gap-2">
+            <div className="cursor-pointer flex-1 h-10 w-10 border-2 border-solipagesd border-order rounded-lg flex justify-center items-center gap-2">
               <img src="/img/flat-color-icons_google.png" alt="google" />
               <p className="hidden mobile:block">Google</p>
             </div>
@@ -98,6 +99,6 @@ function loginUser() {
       </div>
     </>
   );
-  }
+}
 
 export default loginUser;
