@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function historyorder() {
   return (
@@ -9,7 +9,6 @@ function historyorder() {
       <Header />
       <main className="pl-2 pr-2 md:pl-10 md:pr-10 desk:pl-def desk:pr-def">
         <div className="flex pt-[38px] pb-[31px] md:pt-[58px] md:pb-[40px] desk:pt-[78px] desk:pb-[58px] items-center">
-          <p className="flex-1 font-semibold text-2xl lg:text-3xl desk:text-5xl">History Order</p>
           <div className="flex flex-0.5 justify-end">
             <p className="bg-order h-7 w-7 flex justify-center items-center lg:text-xl">2</p>
           </div>
@@ -27,7 +26,7 @@ function historyorder() {
                     <div>
                       <div className="flex gap-2 items-center text-gray-600">
                         <ion-icon name="cafe-outline"></ion-icon>
-                        <p>No. Order</p>
+                        <p>No. Product</p>
                       </div>
                       <p className="font-bold">#12354-09893</p>
                     </div>
@@ -61,7 +60,7 @@ function historyorder() {
                     </div>
                   </div>
                   <a href="#" className="text-orange-800">
-                    View Order
+                    View Product
                   </a>
                 </div>
               </div>
