@@ -41,11 +41,11 @@ function register() {
 
   return (
     <>
-      <div className="flex flex-1 h-screen">
-        <div className="hidden md:block">
+      <div className="flex h-screen">
+        <div className="hidden lg:block">
           <img className="bg-cover" src="img/register-img.webp" alt="register-img" />
         </div>
-        <div className="flex-2 w-full justify-center h-max flex-col px-3 md:px-20 desk:pr-def pt-5">
+        <div className="flex-1 flex justify-center flex-col gap-y-5 px-2 md:px-10 xl:pr-def py-9">
           <form onSubmit={handleFormSubmit} className="flex flex-col gap-1">
             <div className="flex gap-2 items-center mb-4">
               <img src="img/coffee-shop-logo.svg" alt="coffee-shop-logo" />

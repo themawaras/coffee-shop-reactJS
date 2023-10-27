@@ -3,10 +3,10 @@ import react from "react";
 
 function footer() {
   return (
-    <footer className="pt-[67px] pb-8 h-[371px] bg-[#F8F8F8] flex justify-between px-def place-content-between">
-      <section className="flex-column justify-between">
+    <footer className="pt-[67px] pb-11 h-auto bg-[#F8F8F8] flex justify-between px-def place-content-between">
+      <section className="flex flex-col gap-3">
         <div className="">
-          <img className="" src="/assets/img/coffee-shop-logo.svg" alt="coffe-shop-logo" />
+          <img className="" src="/img/coffee-shop-logo.svg" alt="coffe-shop-logo" />
         </div>
         <div>
           <p className="w-[340px] text-[16px]">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
@@ -44,9 +44,9 @@ function footer() {
           <h3 className="font-semibold">Social Media</h3>
         </div>
         <div className="flex">
-          <img className="" src="/assets/img/Facebook.png" href="#" alt="facebook-icon" />
-          <img className="" src="/assets/img/Twitter.png" href="#" alt="facebook-icon" />
-          <img className="" src="/assets/img/Instagram.png" href="#" alt="facebook-icon" />
+          <img className="" src="/img/Facebook.svg" href="#" alt="facebook-icon" />
+          <img className="" src="/img/Twitter.svg" href="#" alt="facebook-icon" />
+          <img className="" src="/img/Instagram.svg" href="#" alt="facebook-icon" />
         </div>
       </section>
     </footer>

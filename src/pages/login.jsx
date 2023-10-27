@@ -35,12 +35,12 @@ function loginUser() {
   return (
     <>
       <div className="flex h-screen">
-        <div className="hidden md:block">
-          <img src="img/Rectangle 289-login.jpg" alt="image" className="h-screen" />
+        <div className="hidden lg:block">
+          <img src="/img/login-img.webp" alt="side-image" className="h-screen" />
         </div>
-        <form onSubmit={submitHandler} className="flex-1 flex justify-center flex-col gap-y-5 px-2 md:px-10 desk:pr-def py-9">
+        <form onSubmit={submitHandler} className="flex-1 flex justify-center flex-col gap-y-5 px-2 md:px-10 xl:pr-def py-9">
           <div className="flex gap-2 items-center mb-4">
-            <img src="/img/coffee-shop-logo.png" alt="login-img" />
+            <img src="/img/coffee-shop-logo.svg" alt="login-img" />
           </div>
           <p className="text-xl">Login</p>
           <p className="text-sm">Fill out the form correctly</p>
@@ -77,11 +77,11 @@ function loginUser() {
           <p className="flex justify-center">or</p>
           <div className="flex gap-4">
             <div className="cursor-pointer flex-1 h-10 w-10 border-2 border-solid border-order rounded-lg flex justify-center items-center gap-2">
-              <img src="/img/bx_bxl-facebook-circle.png" alt="facebook" />
+              <img src="/img/facebook-btn.svg" alt="facebook" />
               <p className="hidden mobile:block">Facebook</p>
             </div>
             <div className="cursor-pointer flex-1 h-10 w-10 border-2 border-solipagesd border-order rounded-lg flex justify-center items-center gap-2">
-              <img src="/img/flat-color-icons_google.png" alt="google" />
+              <img src="/img/google-btn.svg" alt="google" />
               <p className="hidden mobile:block">Google</p>
             </div>
           </div>

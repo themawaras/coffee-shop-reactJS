@@ -7,8 +7,8 @@ export default {
         def: "calc((100vw - 1180px) / 2)",
       },
       fontFamily: {
-        jakarta: "'Plus Jakarta Sans', sans-serif",
-        sacramento: "Sacramento', cursive",
+        jakarta: "Plus Jakarta Sans, sans-serif",
+        sacramento: "Sacramento, cursive",
       },
       colors: {
         translucent: "#0B090921",

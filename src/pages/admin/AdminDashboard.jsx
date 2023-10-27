@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Modal from "../../components/modal/Modal";
 import getImageUrl from "../../utils/imageGetter";
 
